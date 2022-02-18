@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  background: #000;
+}
+.amongus{
+  position: relative;
+}
+.amongus .body{
+  position: relative;
+  width: 300px;
+  height: 420px;
+  overflow: hidden;
+  border-radius: 40% 60% 0 0;
+  border: 15px solid #000;
+}
+.amongus .body .main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(194, 16, 16);
+}
+.amongus .body .shadow{
+  position: absolute;
+  left: 7%;
+  width: 93%;
+  height: 90%;
+  background: red;
+  border-radius: 0% 10% 55% 80% / 40% 30% 30% 90%;
+}
+.amongus .glass{
+  position: absolute;
+  width: 220px;
+  height: 130px;
+  background: #4A646D;
+  top: 90px;
+  right: -20px;
+  border: 15px solid black;
+  border-radius: 20% 40% 40% 35% / 40% 50% 50% 60%;
+  transform: rotate(-4deg);
+  overflow: hidden;
+  
+}
+.amongus .glass .blue{
+  position: absolute;
+  top: -25%;
+  left: 12%;
+  width: 90%;
+  height: 100px;
+  background: #94C9DB;
+  border-radius: 8% 10% 50% 150% / 50% 100% 30% 100%;
+  transform: rotate(-12deg);
+
+}
+.amongus .glass .white{
+  position: absolute;
+  top: 12%;
+  right: 30px;
+  width: 100px;
+  height: 40px;
+  background: white;
+  border-radius: 40% 150% 50% 150% / 60% 90% 80% 120%;
+}
+.amongus .back{
+  position: absolute;
+  left: -75px;
+  top: 130px;
+
+  height: 280px;
+  width: 90px;
+
+  background: red;
+  border: 15px solid #000;
+  border-radius: 100% 100% 100% 60% / 100% 0% 10% 100%;
+
+  overflow: hidden;
+}
+.amongus .back .shadow{
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 85%;
+
+  background: rgb(194, 16, 16);
+  border-radius: 40% 0 0 0 / 10% 0 0 0;
+}
+.amongus .legs{
+  display: flex;
+  justify-content: space-between;
+  transform: translatey(-15px);
+}
+.amongus .legs .left{
+  width: 115px;
+  height: 100px;
+
+  background: rgb(194, 16, 16);
+  border-left: 15px solid #000; 
+  border-bottom: 15px solid #000;
+  border-right: 15px solid #000;
+
+  border-radius: 0% 0% 100% 35% / 0% 50% 40% 100%
+}
+.amongus .legs .right{
+  position: relative;
+  width: 90px;
+  height: 100px;
+
+  background: rgb(194, 16, 16);
+  border-left: 15px solid #000; 
+  border-bottom: 15px solid #000;
+  border-right: 15px solid #000;
+
+  border-radius: 0 0 30% 30% / 0% 0% 100% 100%;
+}
+.amongus .legs .right:before{
+  content: '';
+  position: absolute;
+  top: 0%;
+  left: -80%;
+
+  width: 80px;
+  height: 15px;
+
+  background: black;
+
+  border-radius: 0 0 100% 0
+}
