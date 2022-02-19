@@ -18,57 +18,74 @@
 }
 .amongus .body{
   position: relative;
+
   width: 300px;
   height: 420px;
+
   overflow: hidden;
-  border-radius: 40% 60% 0 0;
+
   border: 15px solid #000;
+  border-radius: 40% 60% 0 0;
 }
 .amongus .body .main{
   position: absolute;
+
   width: 100%;
   height: 100%;
+
   background: rgb(194, 16, 16);
 }
 .amongus .body .shadow{
   position: absolute;
   left: 7%;
+
   width: 93%;
   height: 90%;
+
   background: red;
+
   border-radius: 0% 10% 55% 80% / 40% 30% 30% 90%;
 }
 .amongus .glass{
   position: absolute;
-  width: 220px;
-  height: 130px;
-  background: #4A646D;
   top: 90px;
   right: -20px;
-  border: 15px solid black;
+
+  width: 220px;
+  height: 130px;
+  
+  background: rgb(76, 103, 112);
+
+  border: 15px solid #000;
   border-radius: 40% 35% 35% 55% / 40% 60% 60% 60%;
+
   transform: rotate(-4deg);
   overflow: hidden;
-  
 }
 .amongus .glass .blue{
   position: absolute;
   top: -25%;
   left: 12%;
+
   width: 90%;
   height: 100px;
-  background: #94C9DB;
-  border-radius: 8% 10% 50% 150% / 50% 100% 30% 100%;
-  transform: rotate(-12deg);
+  
+  background: rgb(148, 201, 219);
 
+  border-radius: 8% 10% 50% 150% / 50% 100% 30% 100%;
+
+  transform: rotate(-12deg);
 }
 .amongus .glass .white{
   position: absolute;
   top: 12%;
   right: 30px;
+
   width: 100px;
   height: 40px;
+
   background: white;
+
   border-radius: 40% 150% 50% 150% / 60% 90% 80% 120%;
 }
 .amongus .back{
@@ -80,6 +97,7 @@
   width: 90px;
 
   background: red;
+
   border: 15px solid #000;
   border-radius: 100% 100% 100% 60% / 100% 0% 10% 100%;
 
@@ -93,11 +111,13 @@
   height: 85%;
 
   background: rgb(194, 16, 16);
+
   border-radius: 100% 100% 0% 0% / 20% 6% 0% 0%;
 }
 .amongus .legs{
   display: flex;
   justify-content: space-between;
+
   transform: translatey(-15px);
 }
 .amongus .legs .left{
@@ -105,6 +125,7 @@
   height: 100px;
 
   background: rgb(194, 16, 16);
+
   border-left: 15px solid #000; 
   border-bottom: 15px solid #000;
   border-right: 15px solid #000;
@@ -113,15 +134,17 @@
 }
 .amongus .legs .right{
   position: relative;
+
   width: 90px;
   height: 100px;
 
   background: rgb(194, 16, 16);
+
   border-left: 15px solid #000; 
   border-bottom: 15px solid #000;
   border-right: 15px solid #000;
 
-  border-radius: 0 0 30% 30% / 0% 0% 100% 100%;
+  border-radius: 0% 0% 30% 30% / 0% 0% 100% 100%;
 }
 .amongus .legs .right:before{
   content: '';
